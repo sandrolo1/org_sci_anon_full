@@ -1,0 +1,39 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+reports/
+examples/synthetic/
+inputs/scopus/*
+!inputs/scopus/.gitkeep
+inputs/benchmarks/*
+!inputs/benchmarks/.gitkeep
+inputs/sources/*
+!inputs/sources/.gitkeep
+
+inputs/publishability/*
+!inputs/publishability/.gitkeep
+
+# The evaluator's 2026-10-19 online export contains abstracts and private forum text.
+# Keep the exact source files in the checkout for local analysis, not in Git.
+inputs/evaluator_export_2026-10-19/raw/
+
+# The 2026-10-20 evaluation export includes private proposals and licensed abstracts.
+inputs/evaluator_export_2026-10-20/raw/
+
+# Local React app: dependencies, builds, and unpublished evaluation data.
+web/node_modules/
+web/dist/
+web/reviewer/dist-reviewer/
+web/public/data/
+
+# Abstracts of the 2026 papers (copyright: not redistributed; see inputs/evaluation_2026/README.md)
+inputs/evaluation_2026/*
+!inputs/evaluation_2026/.gitkeep
+
+# Local analyses of the evaluation results (data copies, outputs)
+analysis/
+
+# Personal Claude Code permissions (browser domain allowlist)
+.claude/settings.local.json

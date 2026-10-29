@@ -1,0 +1,39 @@
+{
+  "_format": "Gold extraction set. One item per paper, written by a person from the paper itself. Labels are matched after lower-casing and removing punctuation. Fill 'items'; an empty list is refused by gold-import.",
+  "items": [],
+  "_example_item": {
+    "canonical_id": "uuid of the canonical paper",
+    "constructs": [
+      "work engagement",
+      "job performance"
+    ],
+    "measures": [
+      {
+        "construct": "work engagement",
+        "name": "UWES-9"
+      }
+    ],
+    "claims": [
+      {
+        "subject": "work engagement",
+        "object": "job performance",
+        "relation": "predicts",
+        "direction": "positive"
+      }
+    ]
+  },
+  "_relations": [
+    "predicts",
+    "correlates",
+    "part_of",
+    "same_as_claimed",
+    "distinct_from_claimed"
+  ],
+  "_directions": [
+    "positive",
+    "negative",
+    "nonlinear",
+    "none",
+    "unspecified"
+  ]
+}

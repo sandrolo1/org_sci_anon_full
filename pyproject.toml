@@ -1,0 +1,22 @@
+[project]
+name = "research-intelligence-phase0"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["psycopg[binary]>=3.2,<4", "openpyxl>=3.1,<4", "boto3>=1.35,<2", "openai>=2,<3", "numpy>=1.26,<3", "scikit-learn>=1.4,<2", "scipy>=1.11,<2", "pypdf>=5,<7", "python-docx>=1.1,<2", "reportlab>=4,<5"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9", "pyyaml>=6", "tiktoken>=0.7"]
+aws = ["botocore[crt]"]
+
+[project.scripts]
+research0 = "research0.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+research0 = ["dashboard_template.html", "forum_template.html", "evaluation_snapshot_template.html"]

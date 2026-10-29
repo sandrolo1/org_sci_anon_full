@@ -1,0 +1,17 @@
+{
+  "version": "aom-scope-v1",
+  "language": "en",
+  "decision_rule": "Evaluate CTO and TIM independently. Return 1 when the paper's central research question or substantive contribution falls within that community's AOM domain statement. Return 0 when the connection is incidental, based only on a keyword, or unsupported by the title and abstract. A paper may receive 1 for both communities or 0 for both. Do not infer a community from the journal, authors, or benchmark membership alone.",
+  "communities": {
+    "CTO": {
+      "name": "Communication, Digital Technology, and Organization",
+      "source_url": "https://www.aom.org/divisions-and-interest-groups/communication-digital-technology-and-organization/",
+      "scope": "Behavioral, social, and economic processes at the intersection of communication, digital technology, information systems, and organizing within or among organizations or institutions. This includes technology-enabled work and collaboration, digital platforms and communities, digital transformation, platform governance, IT diffusion, organizational change and design, and AI when these are studied as organizational or communication phenomena."
+    },
+    "TIM": {
+      "name": "Technology and Innovation Management",
+      "source_url": "https://www.aom.org/divisions-and-interest-groups/technology-and-innovation-management/",
+      "scope": "The management, antecedents, mechanisms, and implications of innovation and technological change. This includes technology strategy, invention, R&D, knowledge and intellectual property, open and user innovation, technology entrepreneurship, commercialization and scaling, technological systems and ecosystems, and emerging technologies when linked substantively to innovation or technological change."
+    }
+  }
+}

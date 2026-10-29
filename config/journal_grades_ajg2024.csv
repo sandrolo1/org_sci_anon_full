@@ -1,0 +1,38 @@
+# Provenance: ABS/AJG 2024 rows for the journals of the project's Scopus exports (inputs/scopus), read on 2026-10-17 from https://journalranking.org/ (third-party copy; page sha256 fc39c030f354fedb).
+# NOT verified against the official Chartered ABS site; matched by ISSN, else by exact normalized title.
+journal,issn,matched_by,abs_title,abs_field,ajg2024,ajg2021,ajg2018,papers
+Academy of Management Annals,1941-6520,title,Academy of Management Annals,ETHICS-CSR-MAN,4*,4*,4,244
+Academy of Management Journal,0001-4273,title,Academy of Management Journal,ETHICS-CSR-MAN,4*,4*,4*,781
+Academy of Management Review,0363-7425,title,Academy of Management Review,ETHICS-CSR-MAN,4*,4*,4*,459
+Administrative Science Quarterly,0001-8392,title,Administrative Science Quarterly,ETHICS-CSR-MAN,4*,4*,4*,275
+Decision Support Systems,0167-9236,title,Decision Support Systems,INFO MAN,3,3,3,1287
+Entrepreneurship Theory and Practice,1042-2587,title,Entrepreneurship Theory and Practice,ENT-SBM,4*,4,4,55
+Entrepreneurship: Theory and Practice,1042-2587,title,Entrepreneurship Theory and Practice,ENT-SBM,4*,4,4,496
+European Journal of Information Systems,0960-085X,title,European Journal of Information Systems,INFO MAN,4,4,3,420
+Information Systems Journal,1350-1917,title,Information Systems Journal,INFO MAN,4,4,3,386
+Information Systems Research,1047-7047,title,Information Systems Research,INFO MAN,4*,4*,4*,781
+Information and Management,0378-7206,title,Information and Management,INFO MAN,3,3,3,1072
+Information and Organization,1471-7727,title,Information and Organization,INFO MAN,3,3,3,188
+Journal of Business Venturing,0883-9026,title,Journal of Business Venturing,ENT-SBM,4*,4,4,528
+Journal of Information Technology,0268-3962,title,Journal of Information Technology,INFO MAN,4,4,3,240
+Journal of International Business Studies,0047-2506,title,Journal of International Business Studies,IB&AREA,4*,4*,4*,691
+Journal of Management,0149-2063,title,Journal of Management,ETHICS-CSR-MAN,4*,4*,4*,963
+Journal of Management Information Systems,0742-1222,title,Journal of Management Information Systems,INFO MAN,4,4,4,459
+Journal of Management Studies,0022-2380,title,Journal of Management Studies,ETHICS-CSR-MAN,4,4,4,767
+Journal of Marketing,0022-2429,title,Journal of Marketing,MKT,4*,4*,4*,520
+Journal of Marketing Research,0022-2437,title,Journal of Marketing Research,MKT,4*,4*,4*,661
+Journal of Operations Management,0272-6963,title,Journal of Operations Management,OPS&TECH,4*,4*,4*,423
+Journal of Product Innovation Management,0737-6782,title,Journal of Product Innovation Management,INNOV,4,4,4,447
+Journal of Strategic Information Systems,0963-8687,title,Journal of Strategic Information Systems,INFO MAN,4,4,3,208
+Journal of the Academy of Marketing Science,0092-0703,title,Journal of the Academy of Marketing Science,MKT,4*,4*,4*,619
+Journal of the Association for Information Systems,1536-9323,issn,Journal of the Association for Information Systems,INFO MAN,4*,4*,4,490
+MIS Quarterly: Management Information Systems,0276-7783,title,MIS Quarterly: Management Information Systems,INFO MAN,4*,4*,4*,1330
+Management Science,0025-1909,title,Management Science,OR&MANSCI,4*,4*,4*,3621
+Manufacturing and Service Operations Management,1523-4614,title,Manufacturing and Service Operations Management,OPS&TECH,3,3,3,966
+Marketing Science,0732-2399,title,Marketing Science,MKT,4*,4*,4*,632
+Organization Science,1047-7039,title,Organization Science,ORG STUD,4*,4*,4*,943
+Organization Studies,0170-8406,title,Organization Studies,ORG STUD,4,4,4,812
+Production and Operations Management,1059-1478,title,Production and Operations Management,OPS&TECH,4,4,4,1889
+Research Policy,0048-7333,title,Research Policy,INNOV,4*,4*,4*,1716
+Strategic Entrepreneurship Journal,1932-4391,title,Strategic Entrepreneurship Journal,ENT-SBM,4,4,4,294
+Strategic Management Journal,0143-2095,title,Strategic Management Journal,STRAT,4*,4*,4*,1199

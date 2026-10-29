@@ -1,0 +1,5 @@
+{
+  "_format": "Continuous human ratings of how equivalent two construct uses are (0 = unrelated, 1 = the same construct). Every item needs the same raters (at least two) and at least three items.",
+  "items": [],
+  "_example_item": {"canonical_id_a": "uuid", "label_a": "digital readiness", "canonical_id_b": "uuid", "label_b": "technology preparedness", "ratings": {"Ana": 0.9, "Ben": 0.8}}
+}

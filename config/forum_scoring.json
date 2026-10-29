@@ -1,0 +1,25 @@
+{
+  "schema": "forum-scoring-config-v1",
+  "name": "forum-scoring-gpt6luna-medium",
+  "run_live": true,
+  "embedding": "openai:text-embedding-3-small",
+  "k": 5,
+  "lexical_k": 5,
+  "concurrency": 6,
+  "judges": [
+    {
+      "role": "judge_1",
+      "provider": "openai",
+      "model": {"id": "gpt-6-luna", "release_source": "config/forum_models.json (the model id the other steps of the pipeline use); release date and knowledge cutoff not verified"},
+      "params": {"max_output_tokens": 12000, "reasoning_effort": "medium", "temperature": null}
+    },
+    {
+      "role": "judge_2",
+      "provider": "openai",
+      "model": {"id": "gpt-6-luna", "release_source": "config/forum_models.json (the model id the other steps of the pipeline use); release date and knowledge cutoff not verified"},
+      "params": {"max_output_tokens": 12000, "reasoning_effort": "medium", "temperature": null}
+    }
+  ],
+  "budget": {"max_live_calls": 300, "max_tokens": 2000000, "max_seconds": 1000000},
+  "retries": {"max_attempts": 2, "max_total_failures": 3}
+}

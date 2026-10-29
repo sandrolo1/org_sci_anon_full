@@ -1,0 +1,24 @@
+{
+  "_format": "Gold pairs, judged by people (ideally blind: research0 pairs-export-blind) with the pair codebook v2 of the proposal v4 (Appendix B). The pair is two construct uses: a paper id and the normalised label in each. `class` is one of the classes below; a conceptual jingle or jangle needs a meaning-level argument and a theoretical consequence (substitution test). Include pairs the pipeline never proposed, otherwise recall cannot be measured, and include near negatives (measurement divergence, scope variation, empirical redundancy) and hard negatives. The proposal asks for at least 50 adjudicated cases per positive conceptual class and for the probabilistic sample and the enriched challenge set to be reported separately. Items with the earlier `flag` (jingle, jangle, none, unresolved) are still read, as conceptual_jingle, conceptual_jangle, distinct and unresolved.",
+  "items": [],
+  "_example_item": {
+    "canonical_id_a": "uuid",
+    "label_a": "engagement",
+    "canonical_id_b": "uuid",
+    "label_b": "engagement",
+    "class": "conceptual_jingle",
+    "theoretical_consequence": "Energy invested in a role and counts of platform interactions predict different outcomes."
+  },
+  "_classes": [
+    "conceptual_jingle",
+    "conceptual_jangle",
+    "measurement_divergence",
+    "scope_variation",
+    "empirical_redundancy",
+    "part_whole",
+    "related_but_distinct",
+    "distinct",
+    "same_meaning",
+    "unresolved"
+  ]
+}

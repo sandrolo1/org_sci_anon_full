@@ -1,0 +1,17 @@
+{
+  "version": "forum-models-v1",
+  "note": "Models the forum can use. Add an entry to offer another model in the interface; any other model id can also be typed by hand. price_per_mtok is US dollars per million tokens: it is null until someone enters the provider's published price (nothing here is a quoted price), and the interface then shows tokens only.",
+  "models": [
+    {
+      "id": "gpt-6-luna",
+      "provider": "openai",
+      "label": "gpt-6-luna (the model the other pipeline steps use)",
+      "reasoning": true,
+      "max_output_tokens": 32000,
+      "price_per_mtok": {
+        "input": null,
+        "output": null
+      }
+    }
+  ]
+}

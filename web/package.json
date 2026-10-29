@@ -1,0 +1,22 @@
+{
+  "name": "discovery-forum-results",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:data": "python3 scripts/prepare_data.py && python3 scripts/prepare_benchmark.py && python3 scripts/prepare_retrieval.py",
+    "dev": "npm run prepare:data && vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "reviewer:dev": "vite --config reviewer.config.js --host 127.0.0.1",
+    "reviewer:build": "vite build --config reviewer.config.js",
+    "reviewer:check": "node reviewer/scripts/check.mjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}

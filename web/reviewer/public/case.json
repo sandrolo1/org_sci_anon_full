@@ -1,0 +1,66 @@
+{
+  "kind": "synthetic_mechanism_fixture",
+  "title": "When deployment capacity outruns worker readiness",
+  "prompt": "Find a theory question at the intersection of digital work and innovation adoption.",
+  "description": "Four invented papers show how a conceptual map can distinguish the same term at different levels and link two different names for one firm-level idea.",
+  "papers": [
+    {
+      "id": "S1",
+      "community": "CTO",
+      "title": "Worker readiness in algorithmic scheduling",
+      "year": 2024,
+      "passage": "We define digital readiness as a worker's confidence and practical ability to use an algorithmic scheduling tool. Our interviews suggest that workers who cannot understand or contest assignments are less likely to speak up about errors.",
+      "construct": {"label": "digital readiness", "referent": "worker", "level": "individual", "meaning_key": "worker_ability", "measure": "interviewed confidence and practical ability"}
+    },
+    {
+      "id": "S2",
+      "community": "TIM",
+      "title": "Firm capacity for digital deployment",
+      "year": 2025,
+      "passage": "Digital readiness is the firm's capacity to deploy new digital tools, including technical infrastructure, managerial support, and implementation skills. We measure readiness with a firm-level survey of these three components.",
+      "construct": {"label": "digital readiness", "referent": "firm", "level": "organization", "meaning_key": "firm_deployment_capacity", "measure": "firm-level survey of infrastructure, support, and skills"}
+    },
+    {
+      "id": "S3",
+      "community": "TIM",
+      "title": "Technology preparedness and implementation",
+      "year": 2025,
+      "passage": "Technology preparedness is the firm's capacity to deploy new digital tools, reflected in infrastructure, managerial support, and implementation skills. We measure it with a firm-level survey.",
+      "construct": {"label": "technology preparedness", "referent": "firm", "level": "organization", "meaning_key": "firm_deployment_capacity", "measure": "firm-level survey of infrastructure, support, and skills"}
+    },
+    {
+      "id": "S4",
+      "community": "CTO",
+      "title": "Voice during automated coordination",
+      "year": 2023,
+      "passage": "Employee voice is a worker's ability to raise concerns about assignments and obtain a response. Workers reported fewer challenges to automated decisions when the tool gave no explanation or appeal path.",
+      "construct": {"label": "employee voice", "referent": "worker", "level": "individual", "meaning_key": "voice", "measure": "reported challenges and responses"}
+    }
+  ],
+  "outputs": {
+    "0": {
+      "label": "Unorganized passages",
+      "question": "How does digital readiness affect the adoption of algorithmic tools?",
+      "mechanism": "The term digital readiness appears in multiple papers, but the raw passage view does not resolve whether it refers to people or firms.",
+      "prediction": "No discriminating prediction specified.",
+      "status": "illustrative_scripted_output"
+    },
+    "A": {
+      "label": "Construct records added",
+      "question": "When a firm is ready to deploy algorithmic tools but its workers are not ready to use them, does the mismatch suppress employee voice during rollout?",
+      "mechanism": "Deployment can outpace workers' ability to understand and contest automated assignments. The cross-level mismatch may reduce voice even as formal adoption succeeds.",
+      "prediction": "The lowest voice is expected where firm deployment capacity is high and worker readiness is low, relative to firms where both are high.",
+      "status": "illustrative_scripted_output"
+    }
+  },
+  "claims": [
+    {"label": "Worker-level readiness", "paper_id": "S1", "quote": "digital readiness as a worker's confidence and practical ability"},
+    {"label": "Firm-level readiness", "paper_id": "S2", "quote": "Digital readiness is the firm's capacity to deploy new digital tools"},
+    {"label": "A second name for firm capacity", "paper_id": "S3", "quote": "Technology preparedness is the firm's capacity to deploy new digital tools"},
+    {"label": "Potential voice consequence", "paper_id": "S4", "quote": "Workers reported fewer challenges to automated decisions"}
+  ],
+  "novelty_assessment": {
+    "status": "insufficient_evidence",
+    "reason": "These four invented papers demonstrate the reasoning path, but cannot establish whether the question has already been answered in real literature. No novelty score is assigned."
+  }
+}

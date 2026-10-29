@@ -1,0 +1,21 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: research
+      POSTGRES_USER: research
+      POSTGRES_PASSWORD: local_only
+    ports: ["55432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U research"]
+      interval: 5s
+      retries: 10
+  objectstore:
+    image: chrislusf/seaweedfs:4.23
+    command: server -s3 -dir=/data
+    ports: ["8333:8333"]
+    volumes: ["objects:/data"]
+volumes:
+  pgdata:
+  objects:

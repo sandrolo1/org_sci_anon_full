@@ -1,0 +1,13 @@
+.env
+.venv/
+.git/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+reports/
+inputs/
+examples/
+tests/
+templates/
+*.html
+*.md

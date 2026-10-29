@@ -1,0 +1,71 @@
+{
+  "kind": "real_aggregate_pilot",
+  "source_sha256": "547c07ca61c5857bf9fbb3983cfd80785c19e20fee236447e2d83121faea3f2f",
+  "rubric": "proposal-blind-v2",
+  "episodes": 30,
+  "batches": [
+    {
+      "id": "0594b848",
+      "repetitions_per_arm": 3,
+      "means": {
+        "0": 6.613,
+        "A": 6.947,
+        "B-CTO": 7.223,
+        "B-TIM": 6.723,
+        "C": 6.613
+      },
+      "matched_0_A": [
+        {
+          "repetition": 1,
+          "score_0": 6.67,
+          "score_A": 6.67,
+          "difference_A_minus_0": 0.0
+        },
+        {
+          "repetition": 2,
+          "score_0": 6.67,
+          "score_A": 7.17,
+          "difference_A_minus_0": 0.5
+        },
+        {
+          "repetition": 3,
+          "score_0": 6.5,
+          "score_A": 7.0,
+          "difference_A_minus_0": 0.5
+        }
+      ]
+    },
+    {
+      "id": "e8c71b93",
+      "repetitions_per_arm": 3,
+      "means": {
+        "0": 7.0,
+        "A": 6.663,
+        "B-CTO": 6.777,
+        "B-TIM": 6.78,
+        "C": 6.723
+      },
+      "matched_0_A": [
+        {
+          "repetition": 1,
+          "score_0": 6.83,
+          "score_A": 6.83,
+          "difference_A_minus_0": 0.0
+        },
+        {
+          "repetition": 2,
+          "score_0": 7.17,
+          "score_A": 6.33,
+          "difference_A_minus_0": -0.84
+        },
+        {
+          "repetition": 3,
+          "score_0": 7.0,
+          "score_A": 6.83,
+          "difference_A_minus_0": -0.17
+        }
+      ]
+    }
+  ],
+  "interpretation": "Exploratory run feasibility only. Arm rankings change across batches; three repetitions per arm are not a treatment-effect test."
+}

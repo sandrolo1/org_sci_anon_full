@@ -1,0 +1,17 @@
+{
+  "version": "aom-scope-v2",
+  "language": "en",
+  "decision_rule": "Evaluate CTO and TIM independently, using only the title, abstract and keywords supplied for the paper. Answer \"yes\" when the paper's central research question or substantive contribution falls within that community's AOM domain statement, and quote, verbatim from the title, abstract or keywords, the words that show it. Answer \"no\" when the supplied text shows that the connection is incidental, rests only on a keyword, or that the paper is clearly about something else. Answer \"uncertain\" when the supplied text is too short, too general or too ambiguous to decide, or when reasonable experts could disagree. Missing or insufficient information is always \"uncertain\", never \"no\". A paper may be \"yes\" for both communities or \"no\" for both. Do not infer a community from the journal, the authors or benchmark membership. Give a confidence between 0 and 1 for each answer and a short English rationale.",
+  "communities": {
+    "CTO": {
+      "name": "Communication, Digital Technology, and Organization",
+      "source_url": "https://www.aom.org/divisions-and-interest-groups/communication-digital-technology-and-organization/",
+      "scope": "Behavioral, social, and economic processes at the intersection of communication, digital technology, information systems, and organizing within or among organizations or institutions. This includes technology-enabled work and collaboration, digital platforms and communities, digital transformation, platform governance, IT diffusion, organizational change and design, and AI when these are studied as organizational or communication phenomena."
+    },
+    "TIM": {
+      "name": "Technology and Innovation Management",
+      "source_url": "https://www.aom.org/divisions-and-interest-groups/technology-and-innovation-management/",
+      "scope": "The management, antecedents, mechanisms, and implications of innovation and technological change. This includes technology strategy, invention, R&D, knowledge and intellectual property, open and user innovation, technology entrepreneurship, commercialization and scaling, technological systems and ecosystems, and emerging technologies when linked substantively to innovation or technological change."
+    }
+  }
+}
